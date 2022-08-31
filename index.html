@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css.css">
+    <title>Vacanatic/Librerias</title>
+</head>
+<body>      
+    <header>
+        <h1 id="titulo">Vacanatic</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="navo2">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  productos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="Photocard.html">Destinos</a></li>
+                  <li><a class="dropdown-item" href="Album.html">Ofertas</a></li>
+                  <li><a class="dropdown-item" href="Productos.html">Novedades</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <div class="container">
+      <h1>Concurso Vacanatic viaje soñado!</h1>
+      <p>Junto a Vacanatic y Coca-Cola te llevamos a tus vacaciones soñadas! 
+          Con la compra de tu Coca-Cola vas a tener la oportunidad de ir a la pagina de Vacanatic y introducir tu codigo para 
+          particicar por esta gran oportunidad.
+      </p>
+      <img src="https://www.morrikos.com.mx/wp-content/uploads/2019/06/banner-coca-cola-2.jpg" id="photo">
+      <hr>
+      <h3>Introduzca sus datos para participar!</h3>
+    <form id="form">
+      <div class="mb-3">
+        <label for="text" class="form-label">Nombre Completo</label>
+        <input type="text" class="form-control" id="nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="text" class="form-label">Localidad</label>
+        <input type="text" class="form-control" id="localidad" required>
+      </div>
+      <h4>utilize el codigo que se encuentra en la tapa de su Coca-Cola</h4>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Codigo</span>
+        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" id="codigo" required>          
+      </div>
+      <div class="mb-3">
+        <label for="number" class="form-label">Edad</label>
+        <input type="number" class="form-control w-25" id="edad" required>
+      </div>       
+      <div class="mb-3">
+        <label for="number" class="form-label">DNI</label>
+        <input type="number" class="form-control w-25" id="DNi" required>
+      </div>      
+        <button type="submit" class="btn btn-success">Confirmar</button>
+      </form>
+</div>
+<hr>
+<footer>
+<div class="container" id="uno">
+    <button id="mostrar" class="btn btn-light">Datos del participante</button><br><br>
+    <div class="row" id="divProductos"></div>
+</div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.29/dist/sweetalert2.all.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>

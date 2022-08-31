@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+header {
+    background: rgb(255,128,128);
+    background: linear-gradient(90deg, rgb(128, 215, 255) 0%, rgb(82, 255, 154) 47%, rgba(55,140,255,1) 100%);
+    padding: 50px;
+}
+#Nosotros {
+    margin: 50px;
+    border: solid pink 5px;
+}
+#separar {
+    margin: 10px;
+}
+#redes {
+    margin: 10px;
+    border: salmon solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#redes img {
+    margin: 10px;
+}
+#foot {
+    background-color: #6dbae4;
+    margin-bottom: 0;
+}
+#foot a {
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(255,128,128);
+    background: linear-gradient(90deg, rgba(255,128,128,1) 0%, rgba(162,82,255,1) 47%, rgba(55,140,255,1) 100%);
+}
+#NosSec {
+    margin: 50px;
+}
+#NosSec h2:hover{
+    color: blueviolet;
+}
+#uno {
+    padding: 10px;
+    background-color: rgb(255, 230, 92);
+}
+footer {
+    background-color: rgb(255, 230, 92);
+}
+#mostrar {
+    animation-duration: 3s;
+    animation-name: boton;
+    animation-iteration-count: infinite;
+}
+@keyframes boton {
+    0% {
+        background-color: #ff0000;
+    }
+    10% {
+        background-color: #ffa600;
+    }
+    20% {
+        opacity: 1;
+        background-color: #ffe600;
+    }
+    30% {
+        opacity: 1;
+        background-color: #3cff00;
+    }
+    40% {
+        opacity: 1;
+        background-color: #00ff80;
+    }
+    50% {
+        opacity: 1;
+        background-color: #00aeff;
+    }
+    60% {
+        opacity: 1;
+        background-color: #0400ff;
+    }
+    70% {
+        opacity: 1;
+        background-color: #6f00ff;
+    }
+    80% {
+        opacity: 1;
+        background-color: #e100ff;
+    }
+    90% {
+        opacity: 1;
+        background-color: #ff00dd;
+    }
+    100% {
+        opacity: 1;
+        background-color: #ff0077;
+    }
+}
+#titulo {
+    animation-duration: 3s;
+    animation-name: apa;
+    animation-iteration-count: infinite;
+}
+@keyframes apa {
+    0% {
+        color: #241822;
+    }
+    50% {
+        color: #e4e4e4;
+    }
+    100% {
+        opacity: 1;
+        color: #06180e;
+    }
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
